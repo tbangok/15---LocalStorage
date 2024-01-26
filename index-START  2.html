@@ -39,7 +39,7 @@
         done: false
       };
       items.push(item);
-      populateList(items, itemsList)
+      populate(items, itemsList);
       localStorage.setItem('items', JSON.stringify(items));
       this.reset(); // reset form
     }
